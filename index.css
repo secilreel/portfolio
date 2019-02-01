@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  background-color: #131010;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+body {
+  font-family: 'Jura', sans-serif;
+  font-size: 20px;
+  color: #BDB6B6;
+  text-align: left;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+}
+  
+nav, footer {
+  padding: 1% 0;
+  background-color: #BDB6B6;
+  color: #131010;
+}
+  
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header {
+  margin-top: 3%;
+  padding: 5% 0;
+}
+  
+section {
+  min-height: 200px;
+  padding: 3% 0;
+}
+  
