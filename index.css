@@ -16,11 +16,44 @@ body {
   text-align: left;
   line-height: 1.5;
 }
+a{
+  color:  #AD68ED;
+}
+.headshot {
+  border-radius: 70%;
+  width: 30px;
+}
+
+.logo{
+  width: 30px;
+}
+
+.projects{
+  width: 120px;
+  float: right;
+}
+
+.links{
+  text-align: right;
+}
+
+.description-box{
+  clear: right;
+}
 
 h1 {
   text-align: center;
+  color:#EBED68;
 }
-  
+
+h2, h3, h4 {
+  color:#EBED68;
+}
+
+h4 {
+  color: #AD68ED;
+}
+
 nav, footer {
   padding: 1% 0;
   background-color: #BDB6B6;
@@ -36,11 +69,17 @@ nav {
 
 header {
   margin-top: 3%;
-  padding: 5% 0;
+  padding: 3% 0;
 }
   
 section {
-  min-height: 200px;
+  min-height: 100px;
   padding: 3% 0;
 }
+
+@media screen and (min-width: 570px){
+  .projects{
+    width: 300px;
+  }
+} 
   
