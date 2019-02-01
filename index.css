@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
-  background-color: #131010;
 }
+
 nav {
   position: fixed;
   top: 0;
@@ -12,12 +12,17 @@ nav {
 body {
   font-family: 'Jura', sans-serif;
   font-size: 20px;
-  color: #BDB6B6;
+  color: #fbf9fa;
   text-align: left;
   line-height: 1.5;
 }
-a{
-  color:  #AD68ED;
+
+main{
+  background-color: #333644
+}
+
+main a{
+  color:#a80038;
 }
 .headshot {
   border-radius: 70%;
@@ -28,9 +33,14 @@ a{
   width: 30px;
 }
 
+.footer-logo{
+  background-color: #fbf9fa;
+  width: 30px;
+}
+
 .projects{
-  width: 120px;
-  float: right;
+  width: 30%;
+  height: 30%;
 }
 
 .links{
@@ -38,25 +48,22 @@ a{
 }
 
 .description-box{
-  clear: right;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 h1 {
   text-align: center;
-  color:#EBED68;
+  color: #fd0054;
 }
 
 h2, h3, h4 {
-  color:#EBED68;
-}
-
-h4 {
-  color: #AD68ED;
+  color:#fd0054;
 }
 
 nav, footer {
   padding: 1% 0;
-  background-color: #BDB6B6;
+  background-color: #fbf9fa;
   color: #131010;
 }
   
@@ -79,7 +86,8 @@ section {
 
 @media screen and (min-width: 570px){
   .projects{
-    width: 300px;
-  }
+    width: 40%;
+    height: 40%
+  } 
 } 
   
