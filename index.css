@@ -44,25 +44,26 @@ main a{
 .footer-logo{
   background-color: #fbf9fa;
   width: 3rem;
+  margin-right: 2rem;
+}
+li{
+  list-style: none;
+  display: inline;
 }
 
 .projects{
-  width: 30%;
-  height: 30%;
-}
-
-.links{
-  text-align: right;
+  width: 100%;
+  height: 100%;
 }
 
 .description-box{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
 h1 {
   color: #fd0054;
-  margin-right: 
+  margin-top: 6rem;
 }
 
 h2, h3, h4 {
@@ -91,9 +92,33 @@ header {
   padding: 3% 0;
   text-align: center;
 }
-  
+
+.tech{
+  margin-right: 1rem;
+}
+
+.css {
+  width: 3rem;
+}
+
+.html {
+  width: 4rem;
+}
+
+.js {
+  width: 4rem;
+}
+
+.jquery {
+  width: 8rem;
+}
+
 section {
   padding: 3%;
+}
+
+.check-the-code{
+  text-align-last: right;
 }
 
 a{
@@ -105,5 +130,9 @@ a{
     width: 40%;
     height: 40%
   } 
+  .description-box{
+    display: flex;
+    flex-direction: row-reverse;
+  }
 } 
   

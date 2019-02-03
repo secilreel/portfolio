@@ -9,58 +9,63 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-        <nav role="navigation">
-            <span class="navigation-items" id="navigation-projects">Projects</span>
-            <span class="navigation-items" id="navigation-about">About </span>
-            <span class="navigation-items" id="navigation-blog">Blog</span>
-        </nav>
+    <nav role="navigation" class="js-navigation-bar">
+        <ul>
+            <li><a href="index.html" class="navigation-items">Projects</a></li>
+            <li><a href="about.html" class="navigation-items">About</a></li>
+            <li class="navigation-items">Blog</li>
+        </ul>
+    </nav>
     <main role="main">
-    <header role="banner">
-    <h1>seçil</h1>
-    <p>Full Stack User-Centered (UC) Developer</p>
-    </header>
+        <header role="banner">
+            <h1>seçil</h1>
+            <p>Full Stack UC Developer</p>
+        </header>
    <div class="content">
-        <section class="bio-info">
-            <h2>Bio</h2>
-            <p>Hi, this is Irem Secil Reel Sen, and I go by seçil -- read it as say-chill, sounds similar to Rachel. I am eager to grow in coding under great programmers to tackle the challenges of emerging technologies.</p> 
-            <p>If you catch me offline, I might be writing my first book or dancing professionally <a href="https://www.youtube.com/watch?v=s4CT8145GZk" alt="ethnic dance troupe" target="_blank">here</a>.</p>
-        </section>
-        <h3>Projects</h3>
+        <h2>Projects</h2>
         <section class="first-project">
-            <h4>Dachshund Quiz App</h4>
+            <h3>Dachshund Quiz App</h3>
             <div class="description-box">
                 <img src="resources/dachshund.png" class="projects" alt="screenshot of dachshund quiz app">
                 <p>This project takes the user to a fun quiz where she tests her knowledge about the Dachshund breed. It gives feedback on each question answered with an appropriate image along with the correct answer.</p>
             </div>
-            <img src="html5.png" alt="html5-logo">
-            <img src="css.svg" alt="css-logo">
-            <img src="js.png" alt="javascript-logo">
-            <img src="jquery.png" alt="jquery-logo">
-            <section class="links">
-                <a href="https://thinkful-ei-armadillo.github.io/irem-michael/" target="_blank">live site</a>
-                <a href="https://github.com/thinkful-ei-armadillo/irem-michael" target="_blank">
-                    <img src="resources/github.png" class="logo" alt="github account">
-                </a>
+            <div class="technologies">
+            <img src="resources/html5.png" class="html tech" alt="html5-logo">
+            <img src="resources/css.svg" class="css tech" alt="css-logo">
+            <img src="resources/js.png" class="js tech" alt="javascript-logo">
+            <img src="resources/jquery.png" class="jquery tech" alt="jquery-logo">
+            <section class="check-the-code">
+            <a href="https://thinkful-ei-armadillo.github.io/irem-michael/" class="check-the-code" target="_blank">live site</a>
+            <a href="https://github.com/thinkful-ei-armadillo/irem-michael" class="check-the-code" target="_blank">
+                <img src="resources/github.png" class="logo" alt="github account">
+            </a>
             </section>
+            </div>
         </section>
         <section class="second-project">
-            <h4>Bookmark App</h4> 
+            <h3>Bookmark App</h3> 
             <div class="description-box">
                 <img src="resources/bookmark.png" class="projects" alt="screenshot of bookmark app">  
                 <p>The Bookmark App is designed to help those forgetful minds about uhhm-what-was-that-great-thing moments. A user can add a new bookmark, delete and/or extend the view of her bookmarks. The app connects with an API where the user would receive an error message if the request does not go through the server.</p>
             </div>
-            <section class="links">
+            <div class="technologies">
+                    <img src="resources/html5.png" class="html tech" alt="html5-logo">
+                    <img src="resources/css.svg" class="css tech" alt="css-logo">
+                    <img src="resources/js.png" class="js tech" alt="javascript-logo">
+                    <img src="resources/jquery.png" class="jquery tech" alt="jquery-logo">
+            <section class="check-the-code">
                 <a href="https://thinkful-ei-armadillo.github.io/irem-andrew-bookmarks-app/">live site</a>
                 <a href="https://github.com/thinkful-ei-armadillo/irem-andrew-bookmarks-app">
                     <img src="resources/github.png" class= "logo" alt="github account">
                 </a>
              </section>
+            </div>
         </section>
     </div>
     </main>
 <footer role="content-info">
     <a href="mailto:secilreel@yahoo.com" target="_blank">
-        <img src="resources/headshot.png" class="headshot" alt="headshot">
+        <img src="resources/headshot.png" class="headshot footer-logo" alt="headshot">
     </a>
     <a href="https://github.com/secilreel" alt="github account link" target="_blank">
         <img src="resources/github.svg" class="footer-logo" alt="github logo">
