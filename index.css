@@ -30,8 +30,9 @@ main{
 }
 
 a{
-  color:#a80038;
+  color:#CC0043;
   text-decoration: none;
+  font-size: 3rem;
 }
 .headshot {
   border-radius: 70%;
@@ -119,6 +120,7 @@ section {
 }
 
 .check-the-code{
+
   text-align-last: right;
 }
 
@@ -146,8 +148,8 @@ section {
 
 @media screen and (min-width: 1100px){
   .projects{
-    width: 15%;
-    height: 15%
+    width: 10%;
+    height: 10%;
   } 
 } 
   
