@@ -119,6 +119,10 @@ header {
   width: 8rem;
 }
 
+.react{
+  width: 6rem;
+}
+
 section {
   padding: 3%;
 }
