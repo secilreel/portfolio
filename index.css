@@ -127,6 +127,10 @@ header {
   width: 7rem;
 }
 
+.postgres{
+  width: 4rem;
+}
+
 section {
   padding: 3%;
 }
