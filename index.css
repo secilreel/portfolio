@@ -123,6 +123,10 @@ header {
   width: 6rem;
 }
 
+.node{
+  width: 7rem;
+}
+
 section {
   padding: 3%;
 }
