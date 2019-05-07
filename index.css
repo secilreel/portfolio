@@ -113,8 +113,12 @@ header {
 
 .tech{
   margin-right: 1rem;
+  width: 3rem;
 }
 
+/* .tech-skills-icon{
+  width: 50px;
+} */
 .css {
   width: 3rem;
 }
