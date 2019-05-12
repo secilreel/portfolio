@@ -92,6 +92,15 @@ nav, footer {
   background-color: #fbf9fa;
   color: #131010;
 }
+
+video{
+  object-fit:contain;
+}
+
+.project-recording video{
+  width: 100%;
+  height: auto;
+}
   
 nav {
   position: fixed;
