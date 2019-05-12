@@ -101,6 +101,10 @@ video{
   width: 90%;
   height: auto;
 }
+
+#spades{
+  width: 50%;
+}
   
 nav {
   position: fixed;
