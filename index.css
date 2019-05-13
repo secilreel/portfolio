@@ -20,24 +20,25 @@ nav {
 body {
   font-family: 'Jura', sans-serif;
   font-size: 2rem;
-  color: #fbf9fa;
+  color: #333644;
   text-align: left;
   line-height: 1.5;
 }
 
 main{
-  background-color: #333644
+  background-color: #fbf9fa
 }
 
 a{
-  color:#fd0054;
+  color:#a80038;
   text-decoration: none;
   font-size: 1.75rem;
   margin: 0%;
 }
 
 #navigation-items{
-  color: #a80038;
+  color: #fd0054;
+  margin-right: 10px;
 }
 .about-outside-link{
   font-size: 2.5rem;
@@ -52,7 +53,7 @@ a{
 }
 
 .footer-logo{
-  background-color: #fbf9fa;
+  background-color: #333644;
   width: 3rem;
   margin-right: 2rem;
 }
@@ -83,18 +84,18 @@ li{
 }
 
 h1 {
-  color: #fd0054;
+  color: #a80038;
   margin-top: 6rem;
 }
 
 h2, h3, h4 {
-  color:#fd0054;
+  color:#a80038;
 }
 
 nav, footer {
   padding: 1% 0;
-  background-color: #fbf9fa;
-  color: #131010;
+  background-color: #333644;
+  color: #fbf9fa;
 }
 
 video{
