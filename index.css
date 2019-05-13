@@ -46,6 +46,7 @@ a{
 .headshot {
   border-radius: 70%;
   width: 3rem;
+  margin:10px;
 }
 
 .logo{
@@ -107,17 +108,6 @@ video{
   height: auto;
 }
 
-#spades{
-  width: 90%;
-}
-  
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
 .navigation-items{
   margin-right: 3%;
   font-size: 2.5rem;
@@ -134,37 +124,6 @@ header {
   width: 3rem;
 }
 
-/* .tech-skills-icon{
-  width: 50px;
-} */
-.css {
-  width: 3rem;
-}
-
-.html {
-  width: 4rem;
-}
-
-.js {
-  width: 4rem;
-}
-
-.jquery {
-  width: 8rem;
-}
-
-.react{
-  width: 6rem;
-}
-
-.node{
-  width: 7rem;
-}
-
-.postgres{
-  width: 4rem;
-}
-
 section {
   padding: 2%;
 }
@@ -172,6 +131,20 @@ section {
 .check-the-code{
 
   text-align-last: right;
+}
+
+.tech-skills-deck{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.and-growing{
+  text-align: center;
 }
 
 @media screen and (min-width: 768px){
