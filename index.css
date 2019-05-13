@@ -30,10 +30,14 @@ main{
 }
 
 a{
-  color:#CC0043;
+  color:#fd0054;
   text-decoration: none;
   font-size: 1.75rem;
   margin: 0%;
+}
+
+#navigation-items{
+  color: #a80038;
 }
 .about-outside-link{
   font-size: 2.5rem;
