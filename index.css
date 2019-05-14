@@ -115,7 +115,7 @@ video{
 }
 
 header {
-  margin-top: 2%;
+  /* margin-top: 2%; */
   padding: 2% 0;
   text-align: center;
 }
@@ -163,7 +163,7 @@ section {
   }
 
   .padded-div{
-    padding: 60px 0px 0px 0px;
+    padding: 70px 0px 0px 0px;
   }
 } 
 @media screen and (min-width: 1440px){
