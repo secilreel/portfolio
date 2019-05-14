@@ -3,6 +3,7 @@
 }
 html{
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .content{
@@ -86,7 +87,7 @@ li{
 
 h1 {
   color: #a80038;
-  margin-top: 6rem;
+  margin-top: 100px;
 }
 
 h2, h3, h4 {
@@ -148,7 +149,7 @@ section {
 }
 
 .padded-div{
-  padding: 50px 0px 15px 0px;
+  padding: 50px 0px 0px 0px;
 }
 
 @media screen and (min-width: 768px){
@@ -160,5 +161,14 @@ section {
   display: flex;
   justify-content:center; 
   }
+
+  .padded-div{
+    padding: 60px 0px 0px 0px;
+  }
 } 
+@media screen and (min-width: 1440px){
+  .padded-div{
+    padding: 80px 0px 0px 0px;
+  }
+}
   
