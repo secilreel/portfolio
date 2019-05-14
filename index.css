@@ -147,6 +147,10 @@ section {
   text-align: center;
 }
 
+.padded-div{
+  padding: 50px 0px 15px 0px;
+}
+
 @media screen and (min-width: 768px){
   a{
     font-size: 2rem;
