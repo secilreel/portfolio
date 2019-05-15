@@ -103,8 +103,14 @@ video{
   object-fit:contain;
 }
 
+.project-recording{
+  display: flex;
+  justify-content: center;
+}
+
 .project-recording video{
-  width: 90%;
+  align-self: flex-start;
+  width: 100%;
   height: auto;
 }
 
@@ -162,6 +168,12 @@ section {
 
   .padded-div{
     padding: 70px 0px 0px 0px;
+  }
+  .project-recording video{
+    width: 70%;
+  }
+  #spades video{
+    width: 60%;
   }
 } 
 @media screen and (min-width: 1440px){
