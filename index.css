@@ -44,12 +44,16 @@ a{
 .about-outside-link{
   font-size: 2.5rem;
 }
-.headshot {
+.site-logo {
   border-radius: 70%;
-  width: 3rem;
-  margin-left:20px;
+  clear:right;
 }
-
+.footer-info{
+  display:flex;
+  justify-content: center;
+  padding-right: 20px;
+  padding-top: 10px;
+}
 .logo{
   width: 3rem;
 }
@@ -175,6 +179,8 @@ section {
   #spades video{
     width: 60%;
   }
+  .footer-info{
+    justify-content: flex-end;
 } 
 @media screen and (min-width: 1440px){
   .padded-div{
