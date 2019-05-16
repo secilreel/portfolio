@@ -31,14 +31,14 @@ main{
 }
 
 a{
-  color:#a80038;
+  color: #fd0054;
   text-decoration: none;
   font-size: 1.5rem;
   margin: 0%;
 }
 
 #navigation-items{
-  color: #fd0054;
+  color: #fbf9fa;
   margin-right: 10px;
 }
 .about-outside-link{
