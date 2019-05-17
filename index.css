@@ -210,6 +210,11 @@ section {
     margin: 0px 15px 0px 40px;
     }
 }
+@media screen and (min-width: 1024px){
+  .short-intro{
+    text-align: center;
+  }
+}
 @media screen and (min-width: 1440px){
   .padded-div{
     padding: 80px 0px 0px 0px;
