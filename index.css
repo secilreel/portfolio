@@ -177,6 +177,10 @@ section {
   padding: 50px 0px 0px 0px;
 }
 
+#skills{
+  margin: 0px 10px 0px 15px;
+  }
+
 @media screen and (min-width: 768px){
   a{
     font-size: 2rem;
@@ -202,10 +206,34 @@ section {
   .short-intro{
     margin: 30px;
   }
+  #skills{
+    margin: 0px 15px 0px 40px;
+    }
 }
 @media screen and (min-width: 1440px){
   .padded-div{
     padding: 80px 0px 0px 0px;
   }
+  #skills{
+    margin: 0px 25px 0px 70px;
+    }
+  .short-intro{
+    text-align: center;
+  }
+}
+@media screen and (min-width: 2560px){
+  .padded-div{
+    padding: 80px 0px 0px 0px;
+  }
+  #skills{
+    margin: 0px 50px 0px 130px;
+    }
+  #navigation-bar{
+    margin: 0px 80px 0px 80px;
+  }
+  .short-intro{
+    text-align: center;
+  }
+
 }
   
